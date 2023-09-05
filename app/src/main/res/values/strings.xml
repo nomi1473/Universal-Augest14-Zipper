@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">14AugustZipperLockScreen</string>
+    <string name="enabled">Pak Zipper Lock Simple</string>
+    <string name="enabledTxt">Enabled or disabled Simple Lock</string>
+
+    <string name="pin_enabled">Pak Zipper Lock Pin Code</string>
+    <string name="pin_enabledTxt">Enabled or disabled Pin Lock</string>
+
+    <string name="pattern">Change Pin Code</string>
+    <string name="patternTxt">Set Pin Code</string>
+
+
+    <string name="defaultLockTxt">Disable Default Lock</string>
+    <string name="defaultLockMsg">Avoid turning on multiple screen locks.</string>
+
+    <string name="bgTxt">Customize Theme</string>
+    <string name="privacyTxt">Privacy Policy</string>
+
+    <string name="share_app">Share App</string>
+
+    <string name="overlayTitle">Overlay Apps Permission</string>
+    <string name="overlayDes">With this permission our application lock screen window will be on top of other apps. As our application is a lock screen app. If you allow this, our app will work fine</string>
+
+    <string name="appAccessTitle">Allow Notification Permission</string>
+    <string name="appAccessDes">This permission will unlock the screen lock on incoming phone and whatsapp calls and after the calls end, the lock will automatically re-enable.We do not collect or share any information data with anyone.</string>
+
+    <string name="des3">Allows the screen lock app to stay connected in the background, even during the battery optimization process? But It may use more battery power.</string>
+
+    <string name="allow">Allow</string>
+    <string name="deny">Cancel</string>
+
+    <string name="enter_passcode" translatable="false">Enter Passcode</string>
+    <string name="wrong_password" translatable="false">Wrong passcode try again</string>
+    <string name="_2" translatable="false">2</string>
+    <string name="_3" translatable="false">3</string>
+    <string name="_1" translatable="false">1</string>
+    <string name="_4" translatable="false">4</string>
+    <string name="_5" translatable="false">5</string>
+    <string name="_6" translatable="false">6</string>
+    <string name="_7" translatable="false">7</string>
+    <string name="_8" translatable="false">8</string>
+    <string name="_9" translatable="false">9</string>
+    <string name="_0" translatable="false">0</string>
+    <string name="delete" translatable="false">Delete</string>
+
+    <string name="zipper_theme">Select Zipper Bg</string>
+    <string name="zipper_style">Select Zipper Style</string>
+    <string name="hook_style">Select Hook Style</string>
+
+
+    <string name="banner_id" translatable="false">ca-app-pub-4334435550858501/4549004814</string>
+    <string name="intersial" translatable="false">ca-app-pub-4334435550858501/5760076339</string>
+</resources>

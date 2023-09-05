@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.uniappscenter.pak_14august.lockscreen.zipper.bestzippers">
+
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.REORDER_TASKS" />
+
+    <application
+        android:name="com.uniappscenter.pak_14august.lockscreen.zipper.bestzippers.MyApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/icl_round"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.14AugustZipperLockScreen">
+
+
+        <activity
+            android:name="com.uniappscenter.pak_14august.lockscreen.zipper.bestzippers.SplashActivity"
+            android:exported="true"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.uniappscenter.pak_14august.lockscreen.zipper.bestzippers.info.OverlayPermissionActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.uniappscenter.pak_14august.lockscreen.zipper.bestzippers.info.AccessPermissionActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.uniappscenter.pak_14august.lockscreen.zipper.bestzippers.SettingActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.uniappscenter.pak_14august.lockscreen.zipper.bestzippers.pattern.SetPinNumberActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.uniappscenter.pak_14august.lockscreen.zipper.bestzippers.bg.BgCollection"
+            android:screenOrientation="portrait" />
+        <activity android:name="com.uniappscenter.pak_14august.lockscreen.zipper.bestzippers.CategoryActivity"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name="com.uniappscenter.pak_14august.lockscreen.zipper.bestzippers.zipperstyle.ZipperStyleCollection"
+            android:screenOrientation="portrait"/>
+
+
+        <activity
+            android:name="com.uniappscenter.pak_14august.lockscreen.zipper.bestzippers.ZipperLockService"
+            android:excludeFromRecents="true"
+            android:launchMode="singleInstance"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Transparent"/>
+
+        <receiver
+            android:name="com.uniappscenter.pak_14august.lockscreen.zipper.bestzippers.lockservice.ScreenOnOffReceiver"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter android:priority="999">
+                <action android:name="android.intent.action.SCREEN_OFF" />
+                <action android:name="android.intent.action.SCREEN_ON" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.uniappscenter.pak_14august.lockscreen.zipper.bestzippers.lockservice.PowerOffBroadcastReceiver"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter android:priority="999">
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+                <action android:name="com.htc.intent.action.QUICKBOOT_POWERON" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name="com.uniappscenter.pak_14august.lockscreen.zipper.bestzippers.lockservice.LockScreenService"
+            android:enabled="true" />
+
+        <service
+            android:name="com.uniappscenter.pak_14august.lockscreen.zipper.bestzippers.lockservice.PhnNotificationListening"
+            android:exported="true"
+            android:permission="android.permission.BIND_NOTIFICATION_LISTENER_SERVICE">
+            <intent-filter>
+                <action android:name="android.service.notification.NotificationListenerService" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.service.notification.default_filter_types"
+                android:value="conversations|alerting"/>
+            <meta-data
+                android:name="android.service.notification.disabled_filter_types"
+                android:value="ongoing|silent"/>
+        </service>
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-4334435550858501~2657338644" />
+    </application>
+
+</manifest>

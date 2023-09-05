@@ -1,0 +1,31 @@
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Haroon Rasheed/AndroidStudioProjects/14AugustZipperLockScreen/app/src/main/res/drawable/back.xml" value="0.1235" />
+        <entry key="..\:/Users/Haroon Rasheed/AndroidStudioProjects/14AugustZipperLockScreen/app/src/main/res/drawable/code_btn.xml" value="0.1235" />
+        <entry key="..\:/Users/Haroon Rasheed/AndroidStudioProjects/14AugustZipperLockScreen/app/src/main/res/drawable/custom_selection.xml" value="0.1" />
+        <entry key="..\:/Users/Haroon Rasheed/AndroidStudioProjects/14AugustZipperLockScreen/app/src/main/res/drawable/selected_background.xml" value="0.1" />
+        <entry key="..\:/Users/Haroon Rasheed/AndroidStudioProjects/14AugustZipperLockScreen/app/src/main/res/drawable/tip_ripple_effect.xml" value="0.1235" />
+        <entry key="..\:/Users/Haroon Rasheed/AndroidStudioProjects/14AugustZipperLockScreen/app/src/main/res/drawable/tip_rounded_shape.xml" value="0.1235" />
+        <entry key="..\:/Users/Haroon Rasheed/AndroidStudioProjects/14AugustZipperLockScreen/app/src/main/res/layout-v27/setting.xml" value="0.17074275362318841" />
+        <entry key="..\:/Users/Haroon Rasheed/AndroidStudioProjects/14AugustZipperLockScreen/app/src/main/res/layout/activity_main.xml" value="0.17074275362318841" />
+        <entry key="..\:/Users/Haroon Rasheed/AndroidStudioProjects/14AugustZipperLockScreen/app/src/main/res/layout/activity_splash.xml" value="0.17074275362318841" />
+        <entry key="..\:/Users/Haroon Rasheed/AndroidStudioProjects/14AugustZipperLockScreen/app/src/main/res/layout/activity_zipper_style.xml" value="0.17074275362318841" />
+        <entry key="..\:/Users/Haroon Rasheed/AndroidStudioProjects/14AugustZipperLockScreen/app/src/main/res/layout/bg_adapter.xml" value="0.17074275362318841" />
+        <entry key="..\:/Users/Haroon Rasheed/AndroidStudioProjects/14AugustZipperLockScreen/app/src/main/res/layout/bg_collection.xml" value="0.22" />
+        <entry key="..\:/Users/Haroon Rasheed/AndroidStudioProjects/14AugustZipperLockScreen/app/src/main/res/layout/intro_view1.xml" value="0.2" />
+        <entry key="..\:/Users/Haroon Rasheed/AndroidStudioProjects/14AugustZipperLockScreen/app/src/main/res/layout/intro_view2.xml" value="0.17074275362318841" />
+        <entry key="..\:/Users/Haroon Rasheed/AndroidStudioProjects/14AugustZipperLockScreen/app/src/main/res/layout/setting.xml" value="0.22" />
+        <entry key="..\:/Users/Haroon Rasheed/AndroidStudioProjects/14AugustZipperLockScreen/app/src/main/res/layout/twelve_key_entry.xml" value="0.17074275362318841" />
+        <entry key="..\:/Users/Haroon Rasheed/AndroidStudioProjects/14AugustZipperLockScreen/app/src/main/res/layout/zipper_style_adapter.xml" value="0.17074275362318841" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="jbr-17" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

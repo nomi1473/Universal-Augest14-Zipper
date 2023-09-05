@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@color/black"
+    tools:context="com.uniappscenter.pak_14august.lockscreen.zipper.bestzippers.zipperstyle.ZipperStyleCollection">
+
+    <LinearLayout
+        android:id="@+id/layoutStyleZipper"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:clipToPadding="false"
+        android:fitsSystemWindows="true"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:gravity="center_vertical">
+
+        <ImageView
+            android:id="@+id/btnStyleZipper"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:padding="16dp"
+            android:src="@drawable/back" />
+
+        <TextView
+            android:id="@+id/txtStyleZipper"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text="@string/zipper_theme"
+            android:textColor="@color/white"
+            android:textSize="22sp"
+            style="@style/navigation_font"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/adLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="250dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal" />
+
+    <View
+        android:id="@+id/adLineAbove"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_above="@+id/adLayout"
+        android:layout_marginBottom="4dp"
+        android:background="#000000" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_above="@+id/adLineAbove"
+        android:layout_below="@+id/layoutStyleZipper"
+        android:scrollbars="vertical" />
+</RelativeLayout>
